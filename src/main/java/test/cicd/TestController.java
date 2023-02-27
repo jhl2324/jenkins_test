@@ -15,24 +15,4 @@ public class TestController {
     public String test2(){
         return "TEST2";
     }
-    
-    @GetMapping("/test3")
-    public String test3(){
-        return "TEST3";
-    }
-    
-    @GetMapping("/test4")
-    public String test4(){
-        return "TEST4";
-    }
-    
-    @GetMapping("/test5")
-    public String test5(){
-        return "TEST5";
-    }
-    
-    @GetMapping("/test6")
-    public String test6(){
-        return "TEST6";
-    }
 }
