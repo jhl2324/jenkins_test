@@ -28,6 +28,11 @@ public class TestController {
     
     @GetMapping("/test5")
     public String test5(){
-        return "TEST4";
+        return "TEST5";
+    }
+    
+    @GetMapping("/test6")
+    public String test6(){
+        return "TEST6";
     }
 }
