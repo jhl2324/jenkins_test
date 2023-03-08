@@ -8,14 +8,8 @@ group = 'test'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
-}
-
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
@@ -29,6 +23,6 @@ dependencies {
 	implementation 'mysql:mysql-connector-java'
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
+test {
+    useJUnitPlatform()
 }
